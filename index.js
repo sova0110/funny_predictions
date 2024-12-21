@@ -4,7 +4,7 @@ function createStars(count) {
     for (let i = 0; i < count; i++) {
         const star = document.createElement('img');
         star.className = 'bigStar';
-        star.src = "https://cdn.icon-icons.com/icons2/153/PNG/256/star_favourite_21830.png"; // Замените на ваш источник звезды
+        star.src = "https://cdn.icon-icons.com/icons2/153/PNG/256/star_favourite_21830.png"; 
 
         // Установка случайных размеров
         const size = Math.random() * 5 + 20; // Размер от 20px до 25px
